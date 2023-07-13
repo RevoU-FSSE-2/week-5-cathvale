@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveplan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="background-color">
+    <nav class="nav-section">
+        <ul>
+        <img src="Photos/Hamburger Icon.png" alt="hamburger icon" class="hamburger-icon"/>
+        <a href="#" class="logo-text">
+        <img src="Photos/Traveplan-Logo.png" alt="Traveplan Logo" class="logo"/>Traveplan
+        </a>
+        <li><a href="#Home" class="nav-text">Home</a></li>
+        <li><a href="#AboutUs" class="nav-text">About Us</a></li>
+        <li><a href="#OurProduct" class="nav-text">Our Product</a></li>
+        <li><a href="#Gallery" class="nav-text">Gallery</a></li>
+        <li><a href="#ContactUs" class="nav-text">Contact Us</a></li>
+        </ul>
+        
+    </nav>
+    <header id="Home" class="container">
+        <img src="Photos/Header.png" alt="Traveplan Header Image" class="header-photo" />
+    <section class="background-header">
+        <section class="h1-text">
+        <h1>Let Us be Your Travel Buddies</h1>
+        </section>
+    </section>
+    </header>
+    <main>
+        <section id="AboutUs" class="h2-container">
+            <h2 class="h2-text">Why TravePlan?</h2>
+            <section class="grid-h2text">
+            <article id="text1">
+            <img src="Photos/ETU.png" alt="Phone Icon" class="icon" />
+            <h3><b>Easy to Access</b></h3>
+            <p>Access our website via mobile, tablet or desktop</p>
+            </article>
+            <article id="text2">
+            <img src="Photos/File.png" alt="File Icon" class="icon" />
+            <h3><b>Access with Offline File</b></h3>
+            <p>We offer you to download your plan offline, so you can access it anytime and anywhere.</p>
+            </article>
+            <article id="text3">
+            <img src="Photos/AI-Icon.png" alt="AI Icon" class="icon" />
+            <h3><b>Let The Magic Happen</b></h3>
+            <p>With the help of our AI, we can recommend you itinerary that suit you the best.<br>
+            ps: you are able to change the itinerary if it doesn't match with your taste.</p>
+            </article>
+            <article id="text4">
+            <img src="Photos/Own.png" alt="People Icon" class="icon" />
+            <h3><b>Choose to create your own Itinerary or let AI help you</b></h3>
+            <p>You are able to choose whether to create itinerary by your own or let our AI to help you.</p>
+            </article>
+            </section>
+        </section>
+        <section id="OurProduct" class="fig-container">
+            <figure class="fig-background">
+                <span class="image">
+                <img src="Photos/Self.jpg" alt="Self Itinerary Photo" width="80%"/>
+                </span>
+                <p class="text">Create Own Itinerary</p>  
+                <button type="button" class="button">Create Now</button><br/>
+            </figure> 
+            <figure class="fig-background-2">
+                <span class="image-2">
+                <img src="Photos/AI.jpg" alt="Generate Itinerary Photo" width="80%"/>
+                </span>
+                <p class="text">Ask AI Suggestion</p>
+                <button type="button" class="button">Generate Now</button>
+            </figure> 
+        </section>
+        <section id="Gallery" class="image-container">
+            <figure class="image-container">
+                <picture>
+                <source media="(max-width:1077px)" srcset="Photos/Utah.jpg"> 
+                <img src="Photos/Dive.jpg" alt="Diving" id="one">
+                </picture>
+                <img src="Photos/Beach.jpg" alt="Woman on a Beach" id="two">
+                <img src="Photos/Couple.jpg" alt="Couple Travelling" id="three">
+                <img src="Photos/Group.jpg" alt="Travelling with Friends" id="four">
+                <img src="Photos/Woman.jpg" alt="Woman Travelling" id="five">
+            </figure>
+        </section>
+        <section id="ContactUs" class="sec-container">
+        <fieldset class="form">
+            <h2>Contact Us</h2>
+            <p>Please fill out this form</p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input [type="text"] id="name" style="width:80%" required/> <br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" required/><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" style="width:80%" required></textarea>
+                <form action="/Index.html"><br><br>
+                <button type="submit" class="form-button">Submit</button>     
+                </form>      
+            </form>
+        </fieldset>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Copyright &copy 2023 TravePlan</p>
+    </footer>
+</body>
+</html>
